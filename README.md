@@ -1,7 +1,7 @@
 # Building-a-REST-API-with-Node-and-Express
 Building a REST API with Node and Express 
 
-run :
+Add the following :
 
  `$ npm install --save express`
  
