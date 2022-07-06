@@ -3,9 +3,11 @@ Building a REST API with Node and Express
 
 run :
 
- $ npm install --save express
- $ npm install --save body-parser
- $ npm install --save cors
+ `$ npm install --save express`
+ 
+ `$ npm install --save body-parser`
+ 
+ `$ npm install --save cors`
   
 finally run:
    
