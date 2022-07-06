@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Add book
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+.container
+  hr
+  h1 Add Book to lib
+  hr
+  form(action='http://localhost:3000/book' method='POST')
+    .form-group
+      label(for='exampleInputPassword1') ISBN
+      input.form-control(name='isbn')
+    .form-group
+      label(for='exampleInputPassword1') Title
+      input.form-control(name='title')
+    .form-group
+      label(for='exampleInputPassword1') Author
+      input.form-control(name='author')
+    .form-group
+      label(for='exampleInputPassword1') Published Date
+      input.form-control(type='date' name='publish_date')
+    .form-group
+      label(for='exampleInputPassword1') Publisher
+      input.form-control(name='publisher')
+    .form-group
+      label(for='exampleInputPassword1') Number Of Pages
+      input.form-control(type='number' name='numOfPages')
+    button.btn.btn-primary(type='submit') Submit
