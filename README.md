@@ -13,6 +13,7 @@ finally run:
    
        node app.js
   
+Open in browser with `http://localhost:3000/in`
 
 reffer : https://github.com/jkasun/simple-rest-sever-express
 
